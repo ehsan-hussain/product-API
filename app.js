@@ -48,7 +48,7 @@ function verifyToken (req, res, next){
 
  
  //connect to db
-  mongoose.connect (process.env.DB_CONNECTION, ()=> console.log("connected"));
+  mongoose.connect (process.env.DB_CONNECTION, ()=> console.log("connected db"));
 
 
 
